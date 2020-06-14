@@ -16,7 +16,7 @@ def mean_igm_flux(paper = 'Becker13'):
 
     if paper == 'Becker13':
         data = tab.Table.read(path_of_this_file +'/igm/mean_flux_Becker13.fits')
-        print('Cite: Becker et al 2013 paper (https://ui.adsabs.harvard.edu/abs/2007ApJ...662...72B/abstract)')
+        print('Cite: Becker et al 2013 paper (https://ui.adsabs.harvard.edu/abs/2013MNRAS.430.2067B/abstract)')
 
 
     return data['z'], data['mean_flux'], data['error']
